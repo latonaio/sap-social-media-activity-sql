@@ -1,4 +1,4 @@
-CREATE TABLE `sap_social_media_activity_customer_order_party_data`
+CREATE TABLE `sap_social_media_activity_social_media_activity_collection_data`
 (
 			`ObjectID`                             varchar(70)    NOT NULL,
 			`SocialMediaMessageAuthor`             varchar(80)    DEFAULT NULL,
@@ -24,6 +24,6 @@ CREATE TABLE `sap_social_media_activity_customer_order_party_data`
 			`InitiatorCode`                        varchar(80)    DEFAULT NULL,
 			`SocialMediaActivityProviderName`      varchar(80)    DEFAULT NULL,
 			`SocialMediaActivityProviderID`        varchar(80)    DEFAULT NULL,
-			 PRIMARY KEY(`ObjectID`),
+			 PRIMARY KEY(`ObjectID`)
 ) ENGINE = InnoDB
  DEFAULT CHARSET = utf8mb4

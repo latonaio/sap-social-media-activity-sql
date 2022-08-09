@@ -13,7 +13,7 @@ https://api.sap.com/api/socialmediaactivity/overview
 
 sap-sales-inquiry-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。  
 
-* sap-social-media-activity-sql-sap-social-media-activity-collection-data.sql（SAP ソーシャルメディア活動 - ソーシャルメディア活動データ）
+* sap-social-media-activity-sql-social-media-activity-collection-data.sql（SAP ソーシャルメディア活動 - ソーシャルメディア活動データ）
 
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
